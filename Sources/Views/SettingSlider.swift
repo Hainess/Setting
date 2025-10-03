@@ -68,8 +68,7 @@ struct SettingSliderView: View {
     var body: some View {
         Slider(
             value: $value,
-            in: range,
-            step: step
+            in: range
         ) {
             EmptyView()
         } minimumValueLabel: {
